@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
 
     ngOnInit(): void {
         if ('serviceWorker' in navigator) {
-        console.log('service worker!!!!!!!!!!!!!');
+        console.log('service worker!!!!!!!!!!!!! 기능 개발됨');
         
         if (this.swUpdate.isEnabled) {
             this.swUpdate.available.subscribe(() => {
